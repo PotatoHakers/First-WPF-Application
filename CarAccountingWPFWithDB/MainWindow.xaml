@@ -1,0 +1,30 @@
+﻿<Window x:Class="CarAccountingWPFWithDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarAccountingWPFWithDB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="664" Width="1469" ResizeMode="NoResize">
+    <Grid x:Name="CarAccountingWPFWithDB" Height="560" Margin="0,11,10,11">
+        <!--<TextBox x:Name="TextBoxReleaseYear" HorizontalAlignment="Left" Margin="1112,240,0,0" TextWrapping="Wrap" Text="Год выпуска" Width="304" Height="40" VerticalAlignment="Top" FontSize="22" MouseDown="TextBoxReleaseYear_MouseDown" PreviewMouseDown="TextBoxReleaseYear_PreviewMouseDown"/>-->
+        <TextBox x:Name="TextBoxModel" HorizontalAlignment="Left" Margin="1112,54,0,0" TextWrapping="Wrap" Text="Модель авто" VerticalAlignment="Top" Width="304" Height="40" FontSize="22" PreviewMouseDown="TextBoxModel_PreviewMouseDown"/>
+        <TextBox x:Name="TextBoxPrice" HorizontalAlignment="Left" Margin="1112,403,0,0" TextWrapping="Wrap" Text="Цена" Width="304" Height="40" VerticalAlignment="Top" FontSize="22" PreviewMouseDown="TextBoxPrice_PreviewMouseDown"/>
+        <Button x:Name="ButtonADD" Content="Добавить" HorizontalAlignment="Left" Margin="10,502,0,0" VerticalAlignment="Top" Height="40" Width="200" FontSize="20" Click="ButtonADD_Click"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="DataGridCar" Margin="10,45,396,78" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Model, UpdateSourceTrigger=PropertyChanged}" Header="Модель" Width="300"/>
+                <DataGridTextColumn Binding="{Binding Company, UpdateSourceTrigger=PropertyChanged}" Header="Производитель" Width="300"/>
+                <DataGridTextColumn Binding="{Binding Price, UpdateSourceTrigger=PropertyChanged}" Header="Цена" Width="300"/>
+                <!--<DataGridTextColumn Binding="{Binding RealeaseDate, UpdateSourceTrigger=PropertyChanged}" Header="Год выпуска" Width="300"/>-->
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="TextBoxCompany" HorizontalAlignment="Left" Margin="1112,224,0,0" TextWrapping="Wrap" Text="Производитель" Width="304" Height="40" VerticalAlignment="Top" FontSize="22" PreviewMouseDown="TextBoxCompany_PreviewMouseDown"/>
+        <Button x:Name="ButtonDelete" Content="Удалить" HorizontalAlignment="Left" Margin="862,502,0,0" VerticalAlignment="Top" Height="40" Width="200" FontSize="22" Click="ButtonDelete_Click"/>
+        <Button x:Name="ButtonUpdate" Content="Изменить" HorizontalAlignment="Left" Margin="412,501,0,0" VerticalAlignment="Top" Height="40" Width="250" FontSize="22" Click="ButtonUpdate_Click"/>
+        <Label x:Name="labelModel" Content="Модель авто:" HorizontalAlignment="Left" Margin="1112,10,0,0" VerticalAlignment="Top" Width="304" FontSize="22"/>
+        <Label x:Name="labelCompany" Content="Производитель:" HorizontalAlignment="Left" Margin="1112,185,0,0" VerticalAlignment="Top" Width="304" FontSize="22"/>
+        <Label x:Name="labelPrice" Content="Цена:" HorizontalAlignment="Left" Margin="1112,359,0,0" VerticalAlignment="Top" Width="304" FontSize="22"/>
+
+    </Grid>
+</Window>

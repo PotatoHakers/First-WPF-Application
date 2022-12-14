@@ -1,0 +1,16 @@
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\bin\Debug\net6.0\BusinessLigoc.deps.json
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\bin\Debug\net6.0\BusinessLigoc.dll
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\bin\Debug\net6.0\BusinessLigoc.pdb
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\bin\Debug\net6.0\Model.dll
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\bin\Debug\net6.0\Model.pdb
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.csproj.AssemblyReference.cache
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.AssemblyInfoInputs.cache
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.AssemblyInfo.cs
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.csproj.CoreCompileInputs.cache
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.csproj.CopyComplete
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.dll
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\refint\BusinessLigoc.dll
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\BusinessLigoc.pdb
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\obj\Debug\net6.0\ref\BusinessLigoc.dll
+C:\Users\KompMaster\source\repos\CarAccountingWPFWithDB\BusinessLigoc\bin\Debug\net6.0\Model.dll.config
